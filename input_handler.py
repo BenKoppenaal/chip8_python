@@ -5,22 +5,22 @@ class InputHandler(key.KeyStateHandler):
     inputs = [0]*16
 
     keys = {
-        key.Q: 0x0,
-        key.W: 0x1,
-        key.E: 0x2,
-        key.R: 0x3,
-        key.T: 0x4,
-        key.Y: 0x5,
-        key.U: 0x6,
-        key.I: 0x7,
-        key.O: 0x8,
-        key.P: 0x9,
+        key._0: 0x0,
+        key._1: 0x1,
+        key._2: 0x2,
+        key._3: 0x3,
+        key._4: 0x4,
+        key._5: 0x5,
+        key._6: 0x6,
+        key._7: 0x7,
+        key._8: 0x8,
+        key._9: 0x9,
         key.A: 0xA,
-        key.S: 0xB,
-        key.D: 0xC,
-        key.F: 0xD,
-        key.G: 0xE,
-        key.H: 0xF
+        key.B: 0xB,
+        key.C: 0xC,
+        key.D: 0xD,
+        key.E: 0xE,
+        key.F: 0xF
     }
 
     def __init__(self, screen):
